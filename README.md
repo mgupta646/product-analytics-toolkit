@@ -40,7 +40,7 @@ pakit srm --counts 52000 48000                          # sample ratio mismatch 
 control 12.0000% · variant 12.9000% · lift +7.50%
 diff +0.9000% (95% CI -0.0150% to +1.8150%) · z = 1.928 · p = 0.05391 · not significant
 17,169 users per arm (34,338 total) to detect 12.00% → 13.00%
-chi2 = 64.00 · p = 0.000000 · SAMPLE RATIO MISMATCH: investigate before reading results
+chi2 = 160.00 · p = 0.000000 · SAMPLE RATIO MISMATCH: investigate before reading results
 ```
 
 As a library, pass any event log (`user_id`, `event`, `ts`, plus segment columns):
